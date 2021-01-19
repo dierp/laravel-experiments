@@ -19,6 +19,9 @@
   "pre-commit": {
     "enabled": true,
     "actions": [
+      {
+        "action": "vendor\\bin\\phpcbf --standard=PSR2 app"
+      }
     ]
   },
   "pre-push": {
